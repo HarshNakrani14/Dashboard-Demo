@@ -6,7 +6,7 @@ function Product() {
     <div className="flex flex-col h-screen overflow-hidden">
       <div className="flex-1 transition-all duration-300 bg-gray-900 overflow-auto">
         <div className="border-b-2 border-gray-500 p-4">
-          <h1 className="text-2xl font-semibold text-white">Product List</h1>
+          <h1 className="text-2xl font-semibold text-white">Product</h1>
         </div>
 
         <div className="p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
