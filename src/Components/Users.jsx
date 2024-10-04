@@ -13,7 +13,7 @@ function Users() {
           {/* Summary cards */}
           <div className="bg-gray-800 p-6 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700 border-2 border-gray-600">
             <div className="flex items-center">
-              <FaUsers className="text-white text-2xl mr-4" />
+              <FaUsers className="text-blue-400 text-2xl mr-4 " />
               <div>
                 <h2 className="text-white text-sm font-bold">Total Users</h2>
                 <p className="text-2xl text-white font-bold">152,845</p>
@@ -22,7 +22,7 @@ function Users() {
           </div>
           <div className="bg-gray-800 p-6 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700 border-2 border-gray-600">
             <div className="flex items-center">
-              <FaUserPlus className="text-white text-2xl mr-4" />
+              <FaUserPlus className="text-green-300 text-2xl mr-4" />
               <div>
                 <h2 className="text-white text-sm font-bold">New Users Today</h2>
                 <p className="text-2xl text-white font-bold">243</p>
@@ -31,7 +31,7 @@ function Users() {
           </div>
           <div className="bg-gray-800 p-6 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700 border-2 border-gray-600">
             <div className="flex items-center">
-              <FaUserCheck className="text-white text-2xl mr-4" />
+              <FaUserCheck className="text-orange-400 text-2xl mr-4" />
               <div>
                 <h2 className="text-white text-sm font-bold">Active Users</h2>
                 <p className="text-2xl text-white font-bold">98,520</p>
@@ -40,7 +40,7 @@ function Users() {
           </div>
           <div className="bg-gray-800 p-6 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700 border-2 border-gray-600">
             <div className="flex items-center">
-              <FaUserTimes className="text-white text-2xl mr-4" />
+              <FaUserTimes className="text-red-400 text-2xl mr-4" />
               <div>
                 <h2 className="text-white text-sm font-bold">Churn Rate</h2>
                 <p className="text-2xl text-white font-bold">2.4%</p>

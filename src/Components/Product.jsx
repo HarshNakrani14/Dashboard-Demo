@@ -13,7 +13,7 @@ function Product() {
           {/* Summary cards */}
           <div className="bg-gray-800 p-6 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700 border-2 border-gray-600">
             <div className="flex items-center">
-              <FaBox className="text-white text-2xl mr-4" />
+              <FaBox className="text-blue-400 text-2xl mr-4" />
               <div>
                 <h2 className="text-white text-sm font-bold">Total Products</h2>
                 <p className="text-2xl text-white font-bold">1234</p>
@@ -22,7 +22,7 @@ function Product() {
           </div>
           <div className="bg-gray-800 p-6 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700 border-2 border-gray-600">
             <div className="flex items-center">
-              <FaArrowUp className="text-white text-2xl mr-4" />
+              <FaArrowUp className="text-green-400 text-2xl mr-4" />
               <div>
                 <h2 className="text-white text-sm font-bold">Top Selling</h2>
                 <p className="text-2xl text-white font-bold">89</p>
@@ -31,7 +31,7 @@ function Product() {
           </div>
           <div className="bg-gray-800 p-6 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700 border-2 border-gray-600">
             <div className="flex items-center">
-              <FaExclamationTriangle className="text-white text-2xl mr-4" />
+              <FaExclamationTriangle className="text-orange-400 text-2xl mr-4" />
               <div>
                 <h2 className="text-white text-sm font-bold">Low Stock</h2>
                 <p className="text-2xl text-white font-bold">23</p>
@@ -40,7 +40,7 @@ function Product() {
           </div>
           <div className="bg-gray-800 p-6 rounded-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gray-700 border-2 border-gray-600">
             <div className="flex items-center">
-              <FaDollarSign className="text-white text-2xl mr-4" />
+              <FaDollarSign className="text-red-500 text-2xl mr-4" />
               <div>
                 <h2 className="text-white text-sm font-bold">Total Revenue</h2>
                 <p className="text-2xl text-white font-bold">$543,210</p>
