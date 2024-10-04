@@ -12,7 +12,7 @@ function Sidebar({ isOpen, setIsOpen }) {
         </button>
       </div>
       <div className="flex flex-col items-start pl-4 h-96 gap-4">
-        <NavLink to="/" className="flex items-center gap-4 p-2 rounded-lg hover:bg-gray-700 cursor-pointer">
+        <NavLink to="/Dashboard-Demo" className="flex items-center gap-4 p-2 rounded-lg hover:bg-gray-700 cursor-pointer">
           <FaChartBar className="text-purple-400 text-xl" />
           {isOpen && <h2 className="text-white text-sm font-bold">Overview</h2>}
         </NavLink>

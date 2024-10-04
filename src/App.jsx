@@ -21,7 +21,7 @@ function App() {
         {/* Main content */}
         <div className={`flex-1 transition-all duration-300 ${isOpen ? 'ml-52' : 'ml-16'} overflow-hidden`}>
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/Dashboard-Demo" element={<HomePage />} />
             <Route path="/products" element={<Products />} />
             <Route path="/users" element={<Users />} />
             <Route path="/sales" element={<Sales />} />
