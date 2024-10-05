@@ -56,70 +56,47 @@ function Users() {
               <thead>
                 <tr>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-200 uppercase tracking-wider">Name</th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-200 uppercase tracking-wider">Category</th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-200 uppercase tracking-wider">Price</th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-200 uppercase tracking-wider">Stock</th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-200 uppercase tracking-wider">Sales</th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-200 uppercase tracking-wider">Email</th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-200 uppercase tracking-wider">Role</th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-200 uppercase tracking-wider">Status</th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-200 uppercase tracking-wider">Actions</th>
                 </tr>
               </thead>
               <tbody className="bg-gray-800 divide-y divide-gray-700">
                 {/* Product Rows */}
                 <tr>
-                  <td className="px-6 py-4 text-sm text-gray-100">Wireless Earbuds</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">Electronics</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">$59.99</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">143</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">1200</td>
+                <td className="px-6 py-4 text-md text-gray-100 font-semibold flex items-center justify-start"><span className='inline-block h-8 w-8 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full mr-2 flex items-center justify-center flex-col text-white'>T</span>Tony Stark</td>                 
+                  <td className="px-6 py-4 text-sm text-gray-100">stark@industries.com</td>
+                  <td className="px-6 py-4 text-sm text-gray-100"><span className='bg-blue-900 font-semibold rounded-lg px-2 text-center'>Customer</span></td>
+                  <td className="px-6 py-4 text-sm text-gray-100"><span className='bg-green-800 font-semibold rounded-lg px-2 text-center'>Active</span></td>
                   <td className="px-6 py-4 text-sm text-gray-100">
-                    <FaEdit className="inline-block mr-2 cursor-pointer text-blue-400" />
-                    <FaTrashAlt className="inline-block cursor-pointer text-red-400" />
+                    <p className="inline-block mr-2 cursor-pointer text-blue-400">Edit</p>
+                    <p className="inline-block cursor-pointer text-red-400">Delete</p>
                   </td>
                 </tr>
+
                 <tr>
-                  <td className="px-6 py-4 text-sm text-gray-100">Leather Wallet</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">Accessories</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">$39.99</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">89</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">800</td>
+                <td className="px-6 py-4 text-md text-gray-100 font-semibold flex items-center justify-start"><span className='inline-block h-8 w-8 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full mr-2 flex items-center justify-center flex-col text-white'>J</span>Jack Sparrow</td>                 
+                  <td className="px-6 py-4 text-sm text-gray-100">parley@industries.com</td>
+                  <td className="px-6 py-4 text-sm text-gray-100"><span className='bg-blue-900 font-semibold rounded-lg px-2 text-center'>Customer</span></td>
+                  <td className="px-6 py-4 text-sm text-gray-100"><span className='bg-green-800 font-semibold rounded-lg px-2 text-center'>Active</span></td>
                   <td className="px-6 py-4 text-sm text-gray-100">
-                    <FaEdit className="inline-block mr-2 cursor-pointer text-blue-400" />
-                    <FaTrashAlt className="inline-block cursor-pointer text-red-400" />
+                    <p className="inline-block mr-2 cursor-pointer text-blue-400">Edit</p>
+                    <p className="inline-block cursor-pointer text-red-400">Delete</p>
                   </td>
                 </tr>
+
                 <tr>
-                  <td className="px-6 py-4 text-sm text-gray-100">Smart Watch</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">Electronics</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">$199.99</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">56</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">650</td>
+                <td className="px-6 py-4 text-md text-gray-100 font-semibold flex items-center justify-start"><span className='inline-block h-8 w-8 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full mr-2 flex items-center justify-center flex-col text-white'>P</span>Paul Walker</td>                 
+                  <td className="px-6 py-4 text-sm text-gray-100">fast@furious.com</td>
+                  <td className="px-6 py-4 text-sm text-gray-100"><span className='bg-blue-900 font-semibold rounded-lg px-2 text-center'>Customer</span></td>
+                  <td className="px-6 py-4 text-sm text-gray-100"><span className='bg-red-800 font-semibold rounded-lg px-2 text-center'>Inactive</span></td>
                   <td className="px-6 py-4 text-sm text-gray-100">
-                    <FaEdit className="inline-block mr-2 cursor-pointer text-blue-400" />
-                    <FaTrashAlt className="inline-block cursor-pointer text-red-400" />
+                    <p className="inline-block mr-2 cursor-pointer text-blue-400">Edit</p>
+                    <p className="inline-block cursor-pointer text-red-400">Delete</p>
                   </td>
                 </tr>
-                <tr>
-                  <td className="px-6 py-4 text-sm text-gray-100">Yoga Mat</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">Fitness</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">$29.99</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">210</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">950</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">
-                    <FaEdit className="inline-block mr-2 cursor-pointer text-blue-400" />
-                    <FaTrashAlt className="inline-block cursor-pointer text-red-400" />
-                  </td>
-                </tr>
-                <tr>
-                  <td className="px-6 py-4 text-sm text-gray-100">Coffee Maker</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">Home</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">$79.99</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">78</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">720</td>
-                  <td className="px-6 py-4 text-sm text-gray-100">
-                    <FaEdit className="inline-block mr-2 cursor-pointer text-blue-400" />
-                    <FaTrashAlt className="inline-block cursor-pointer text-red-400" />
-                  </td>
-                </tr>
+                
               </tbody>
             </table>
           </div>

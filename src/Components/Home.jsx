@@ -3,7 +3,7 @@ import SalesChart from './SalesChart';
 
 function HomePage() {
   return (
-    <main className="flex-1 transition-all duration-300 bg-gray-900 overflow-auto">
+    <main className="flex-1 transition-all duration-300 bg-gray-900 overflow-auto h-screen">
       <div className="border-b-2 border-gray-500 p-4">
         <h1 className="text-2xl font-semibold text-white">Overview</h1>
       </div>
@@ -47,10 +47,11 @@ function HomePage() {
       </div>
       {/* Adjust this container for the SalesChart */}
       <div className="text-white p-4">
-        <div className="w-full h-72 md:h-full"> {/* Set a specific height */}
+        <div className="w-full h-16 md:h-full"> {/* Set a specific height */}
           <SalesChart />
         </div>
       </div>
+     
     </main>
   );
 }
