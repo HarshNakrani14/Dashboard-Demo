@@ -12,31 +12,48 @@ function Sidebar({ isOpen, setIsOpen }) {
         </button>
       </div>
       <div className="flex flex-col items-start pl-4 h-96 gap-4">
-        <NavLink to="/Dashboard-Demo" className="flex items-center gap-4 p-2 rounded-lg hover:bg-gray-700 cursor-pointer">
+        <NavLink to="/Dashboard-Demo" className={({ isActive }) =>`flex items-center gap-4 p-2 rounded-lg cursor-pointer ${
+          isActive ? 'bg-gray-700' : 'hover:bg-gray-700'}`}>
           <FaChartBar className="text-purple-400 text-xl" />
           {isOpen && <h2 className="text-white text-sm font-bold">Overview</h2>}
         </NavLink>
-        <NavLink to="/products" className="flex items-center gap-4 p-2 rounded-lg hover:bg-gray-700 cursor-pointer">
+
+        <NavLink to="/products" className={({ isActive }) =>`flex items-center gap-4 p-2 rounded-lg cursor-pointer ${
+          isActive ? 'bg-gray-700' : 'hover:bg-gray-700'}`}>
           <FaBox className="text-purple-400 text-xl" />
           {isOpen && <h2 className="text-white text-sm font-bold">Products</h2>}
         </NavLink>
-        <NavLink to="/users" className="flex items-center gap-4 p-2 rounded-lg hover:bg-gray-700 cursor-pointer">
+
+        <NavLink to="/users" className={({ isActive }) =>`flex items-center gap-4 p-2 rounded-lg cursor-pointer ${
+          isActive ? 'bg-gray-700' : 'hover:bg-gray-700'}`}>
           <FaUserAlt className="text-pink-500 text-xl" />
           {isOpen && <h2 className="text-white text-sm font-bold">Users</h2>}
         </NavLink>
-        <NavLink to="/sales" className="flex items-center gap-4 p-2 rounded-lg hover:bg-gray-700 cursor-pointer">
+
+
+        <NavLink to="/sales" className={({ isActive }) =>`flex items-center gap-4 p-2 rounded-lg cursor-pointer ${
+          isActive ? 'bg-gray-700' : 'hover:bg-gray-700'}`}>
           <FaDollarSign className="text-green-400 text-xl" />
           {isOpen && <h2 className="text-white text-sm font-bold">Sales</h2>}
         </NavLink>
-        <NavLink to="/orders" className="flex items-center gap-4 p-2 rounded-lg hover:bg-gray-700 cursor-pointer">
+
+
+        <NavLink to="/orders" className={({ isActive }) =>`flex items-center gap-4 p-2 rounded-lg cursor-pointer ${
+          isActive ? 'bg-gray-700' : 'hover:bg-gray-700'}`}>
           <FaShoppingCart className="text-yellow-400 text-xl" />
           {isOpen && <h2 className="text-white text-sm font-bold">Orders</h2>}
         </NavLink>
-        <NavLink to="/analytics" className="flex items-center gap-4 p-2 rounded-lg hover:bg-gray-700 cursor-pointer">
+
+
+        <NavLink to="/analytics" className={({ isActive }) =>`flex items-center gap-4 p-2 rounded-lg cursor-pointer ${
+          isActive ? 'bg-gray-700' : 'hover:bg-gray-700'}`}>
           <HiOutlineTrendingUp className="text-blue-400 text-xl" />
           {isOpen && <h2 className="text-white text-sm font-bold">Analytics</h2>}
         </NavLink>
-        <NavLink to="/settings" className="flex items-center gap-4 p-2 rounded-lg hover:bg-gray-700 cursor-pointer">
+
+
+        <NavLink to="/settings" className={({ isActive }) =>`flex items-center gap-4 p-2 rounded-lg cursor-pointer ${
+          isActive ? 'bg-gray-700' : 'hover:bg-gray-700'}`}>
           <FaCog className="text-teal-400 text-xl" />
           {isOpen && <h2 className="text-white text-sm font-bold">Settings</h2>}
         </NavLink>

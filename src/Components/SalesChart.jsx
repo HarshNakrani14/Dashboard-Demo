@@ -97,7 +97,7 @@ function SalesChart() {
       <div className="w-full lg:w-1/2">
         <div className="flex flex-col items-center h-full">
           {/* <h2 className="text-2xl font-bold text-white mb-4">Sales Overview</h2> */}
-          <div className="bg-gray-800 p-4 shadow rounded-lg h-96 w-full border-2 border-gray-700    ">
+          <div className="bg-gray-800 p-2 shadow rounded-lg h-96 w-full border-2 border-gray-700    ">
             <Line data={salesData} options={lineChartOptions} />
           </div>
         </div>
@@ -105,7 +105,7 @@ function SalesChart() {
       <div className="w-full lg:w-1/2">
         <div className="flex flex-col items-center h-full">
           {/* <h2 className="text-2xl font-bold text-white mb-4">Category Distribution</h2> */}
-          <div className="bg-gray-800 p-4 shadow rounded-lg h-96 w-full border-2 border-gray-700">
+          <div className="bg-gray-800 p-2 shadow rounded-lg h-96 w-full border-2 border-gray-700">
             <Pie data={categoryData} options={pieChartOptions} />
           </div>
         </div>

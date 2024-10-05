@@ -47,7 +47,7 @@ function HomePage() {
       </div>
       {/* Adjust this container for the SalesChart */}
       <div className="text-white p-4">
-        <div className="w-full h-80 md:h-full"> {/* Set a specific height */}
+        <div className="w-full h-72 md:h-full"> {/* Set a specific height */}
           <SalesChart />
         </div>
       </div>
